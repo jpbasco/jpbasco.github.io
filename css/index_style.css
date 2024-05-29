@@ -4,8 +4,94 @@
     font-family: "Poppins", sans-serif;
     color: white;
 }
-body {
-    background: url(../src/img/fondo.jpg);
-    height: 500px;
-    font-style: italic;
+a {
+    text-decoration: none;
 }
+nav {
+    height: 10vh;
+    background-color: #1E0342;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    padding: 0 10px;
+}
+nav a:hover{
+    background-color: white;
+    color: #1E0342;
+}
+main{
+    height: 75vh;
+    background-color: #0E46A3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    overflow: hidden; 
+    border-right: .15em solid;
+    white-space: nowrap; 
+    margin: 0 auto;
+    animation: typing 5s steps(100),
+    blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent; }
+}
+h2{
+    overflow: hidden; 
+    border-right: .15em solid;
+    white-space: nowrap; 
+    margin: 0 auto;
+    animation: typing 5s steps(100),
+    blink-caret .75s step-end infinite; 
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent; }
+}
+.social {
+    height: 10vh;
+    background-color: #9AC8CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a{
+    padding: 0 10px;
+}
+div a:hover{
+    background-color: white;
+    color: #577b8d;
+}
+footer{
+    height: 5vh;
+    background-color: #e1f7f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: #1e0342;
+}
+p{
+    color: #1e0342;
+}
+footer a:hover{
+    background-color: white;
+    color: #1e0342;
+}
+
+

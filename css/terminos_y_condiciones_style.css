@@ -13,6 +13,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
 nav a{
     padding: 0 10px;
@@ -21,41 +23,27 @@ nav a:hover{
     background-color: white;
     color: #1e0342;
 }
-main{
-    height: 85vh;
+header{
+    height: 10vh;
     background-color: #0e46a3;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-table{
-    border-collapse: collapse;
-    border: 1px solid;
-    border-radius: 8px;
-    padding: 5px;
-    background-color: #046b1f;
+main{
+    background-color: #0346a3;
+    display: flex;
+    flex-direction: column;
 }
-caption{
-    border: 1px solid;
-    border-radius: 8px;
-    padding: 5px;
-    background-color: #046b1f;
-    color: rgb(204, 204, 204);
-    font-weight: bold;
-}
-tbody td{
-    border: 1px solid;
-    padding: 5px;
-    color: rgb(204, 204, 204);
-    text-align: center;
-
+main p{
+    color:white;
 }
 footer{
     height: 5vh;
     background-color: #e1f7f5;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 footer a{
     color: #1e0342;
