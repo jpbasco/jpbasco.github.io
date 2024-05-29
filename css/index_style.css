@@ -96,5 +96,35 @@ footer a:hover{
     background-color: white;
     color: #1e0342;
 }
+@media only screen and (max-width:430px){
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width:1279px){
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+    nav a{
+        padding: 0 5px;
+    }
+
+}
 
 
